@@ -12,5 +12,15 @@ pizza.prototype.calculate = function() {
         } else {
             return 12;
         }
+  } else if (this.size=="medium") {
+    if (this.numberOfToppings<=1) {
+      return 15;
+    }else if (thi.numberOfToppings==2) {
+      return 16;
+    }else {
+      return 17;
+    }
+
   }
-}
+
+};
