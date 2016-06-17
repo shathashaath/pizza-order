@@ -1,2 +1,9 @@
 .top-buffer {
   margin-top:20px; }
+body {
+  background-image: url("../images/pizza-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  }
