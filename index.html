@@ -6,6 +6,7 @@
     <script src="js/script.js"></script>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
     <title>Pizza Order</title>
 </head>
 
@@ -21,21 +22,26 @@
   <div class="container">
     <div class="row">
       <h1>Toppings</h1>
+      <div class="flavor">
       <input id="cheese" type="checkbox"  value="cheese">cheese</input>
       <input id="onion" type="checkbox"  value="onion">onion</input>
       <input id="olives" type="checkbox"  value="olives">olives</input>
+      <input id="beef" type="checkbox"  value="olives">beef</input>
+      </div>
     </div>
     <div class="row">
         <h1>size</h1>
+        <div class="size"
         <input type="radio" name="size" value="small" checked="checked">Small
         <input type="radio" name="size" value="medium" checked="checked">Medium
         <input type="radio" name="size" value="large" checked="checked">Large
+      </div>
     </div>
     <div class="row top-buffer">
         <button id="calculate-button" type="button" name="button">Calculate Cost</button>
     </div>
     <div class="row">
-        <h2>Cost</h2>
+        <h1>Cost</h1>
       <p>
         Total Cost is:
       </p>

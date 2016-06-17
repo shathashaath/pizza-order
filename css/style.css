@@ -1,9 +1,6 @@
 .top-buffer {
   margin-top:20px; }
 
-
-
-
 body {
   background-image: url("../images/pizza-background.jpg");
   background-repeat: no-repeat;
@@ -11,8 +8,28 @@ body {
   background-attachment: fixed;
   background-size: cover;
   }
+
 .jumbotron{
-background-color:#754F44;
+background-color:#FDD692;
 padding:20px;
 text-align: center;
+font-family: 'Indie Flower', cursive;
+color: #881600;
  }
+h1{
+  font-size:35px;
+  color:#6f3826;
+  font-family: 'Architects Daughter', cursive;
+}
+.flavor{
+  font-size: 17px;
+  font-weight: bold;
+}
+.size{
+  font-size: 17px;
+  font-weight: bold;
+}
+p{
+  font-size: 17px;
+  font-weight: bold;
+}
