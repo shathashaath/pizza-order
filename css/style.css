@@ -1,35 +1,37 @@
 .top-buffer {
   margin-top:20px; }
 
-body {
-  background-image: url("../images/pizza-background.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
+  body {
+    background-image: url("../images/pizza-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
   }
 
-.jumbotron{
-background-color:#FDD692;
-padding:20px;
-text-align: center;
-font-family: 'Indie Flower', cursive;
-color: #881600;
- }
-h1{
-  font-size:35px;
-  color:#6f3826;
-  font-family: 'Architects Daughter', cursive;
-}
-.flavor{
-  font-size: 17px;
-  font-weight: bold;
-}
-.size{
-  font-size: 17px;
-  font-weight: bold;
-}
-p{
-  font-size: 17px;
-  font-weight: bold;
-}
+  .jumbotron{
+    background-color:#FDD692;
+    padding:20px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: #881600;
+    font-size: 40px;
+  }
+  h1{
+    font-size:35px;
+    color:#6f3826;
+    font-family: 'Architects Daughter', cursive;
+    /*font-size: 40px;*/
+  }
+  .flavor{
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .size{
+    font-size: 17px;
+    font-weight: bold;
+  }
+  p{
+    font-size: 17px;
+    font-weight: bold;
+  }
