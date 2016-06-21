@@ -1,8 +1,7 @@
-# Pig Dice
+# Pizaa-order
 
-#### Object-Oriented JavaScript Pair Project for Epicodus, 06/15/2016
 
-#### Shradha Pulla and Shatha Shaath
+#### Shatha Shaath
 
 ## Description
 
