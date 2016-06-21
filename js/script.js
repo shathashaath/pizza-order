@@ -1,44 +1,48 @@
-function Pizza(numberOfToppings, size) {
+function Pizza(numberOfToppings, size,total) {
   this.numberOfToppings = numberOfToppings;
   this.size = size;
+  this.total=0;
 }
 
 Pizza.prototype.calculate = function() {
   if (this.size == "small") {
     if (this.numberOfToppings <= 1) {
-      return 10;
+      this.total= 10;
     } else if (this.numberOfToppings == 2) {
-      return 11;
+      this.total= 11;
     } else {
-      return 12;
+      this.total= 12;
     }
   } else if (this.size == "medium") {
     if (this.numberOfToppings <= 1) {
-      return 15;
+      this.total= 15;
     } else if (this.numberOfToppings == 2) {
-      return 16;
+      this.total= 16;
     } else {
-      return 17;
+      this.total= 17;
     }
   } else if (this.size == "large") {
     if (this.numberOfToppings <= 1) {
-      return 20;
+      this.total= 20;
     } else if (this.numberOfToppings == 2) {
-      return 21;
+      this.total= 21;
     } else {
-      return 22;
+      this.total= 22;
     }
   }
 
 };
 
+
+
 function readyFn() {
   $('#calculate-button').click(function() {
     var count = $("input:checkbox:checked").length;
     var size = $("input[name=size]:checked").val();
-    var pizza = new Pizza(count, size);
-    var cost = pizza.calculate();
-    $('#cost').text("$"+parseInt(cost));
+    var total=0;
+    var pizza = new Pizza(count, size,total);
+    pizza.calculate();
+    $('#cost').text("$"+parseInt(pizza.total));
   });
 }
 
